@@ -1,0 +1,92 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- الصفحة الرئيسية -->
+  <url>
+    <loc>https://usedfurniturekw.com/</loc>
+    <lastmod>2025-03-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+
+    <!-- صورة 1 -->
+    <image:image>
+      <image:loc>https://usedfurniturekw.com/assets/img/poster-Used-Furniture-kw-1-55096667.png</image:loc>
+      <image:caption>نقدم خدمة شراء الأثاث المستعمل في الكويت مع تقييم عادل وأسعار تنافسية.</image:caption>
+      <image:title>بيع أثاثك المستعمل بسهولة واحصل على أعلى سعر</image:title>
+    </image:image>
+
+    <!-- صورة 2 -->
+    <image:image>
+      <image:loc>https://usedfurniturekw.com/assets/img/poster-Used-Furniture-kw-2-55096667.png</image:loc>
+      <image:caption>احصل على أفضل العروض عند بيع أثاثك المستعمل مع خدمة سريعة ومريحة.</image:caption>
+      <image:title>نشتري جميع أنواع الأثاث المستعمل بأسعار مغرية</image:title>
+    </image:image>
+
+    <!-- صورة 3 -->
+    <image:image>
+      <image:loc>https://usedfurniturekw.com/assets/img/poster-Used-Furniture-kw-3-55096667.png</image:loc>
+      <image:caption>تواصل معنا اليوم للحصول على تقييم فوري وبيع أثاثك المستعمل بكل سهولة.</image:caption>
+      <image:title>خدمة احترافية لشراء الأثاث المستعمل في الكويت</image:title>
+    </image:image>
+  </url>
+ 
+  <!-- صفحه الاثاث الكويت -->
+  <url>
+    <loc>https://usedfurniturekw.com/furniture.html</loc>
+    <lastmod>2025-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- صفحات المناطق -->
+  <url>
+    <loc>https://usedfurniturekw.com/furniture-ahmadi.html</loc>
+    <lastmod>2025-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://usedfurniturekw.com/furniture-hawalli.html</loc>
+    <lastmod>2025-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://usedfurniturekw.com/furniture-jahra.html</loc>
+    <lastmod>2025-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+ 
+  <!-- صفحه الاثاث الكويت -->
+  <url>
+    <loc>https://usedfurniturekw.com/appliances.html</loc>
+    <lastmod>2025-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- صفحات المناطق -->
+  <url>
+    <loc>https://usedfurniturekw.com/appliances-ahmadi.html</loc>
+    <lastmod>2025-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://usedfurniturekw.com/appliances-hawalli.html</loc>
+    <lastmod>2025-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://usedfurniturekw.com/appliances-jahra.html</loc>
+    <lastmod>2025-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
