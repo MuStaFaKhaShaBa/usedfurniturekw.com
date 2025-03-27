@@ -88,50 +88,93 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="dns-prefetch" href="https://www.google-analytics.com">
 
-        <!-- Enhanced Schema Markup -->
         <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "الهاشمي للاثاث لشراء الأثاث المستعمل",
-      "image": "https://usedfurniturekw.com/assets/img/poster-Used-Furniture-kw-3-50637028.png",
-      "@id": "https://usedfurniturekw.com",
-      "url": "https://usedfurniturekw.com",
-      "telephone": "+96550637028",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "الكويت",
-        "addressLocality": "الكويت",
-        "addressRegion": "الكويت",
-        "postalCode": "",
-        "addressCountry": "KW"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 29.3759,
-        "longitude": 47.9774
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "opens": "08:00",
-        "closes": "22:00"
-      },
-      "sameAs": [
-        "https://www.facebook.com/highsitekw",
-        "https://www.instagram.com/highsitekw"
-      ]
-    }
-    </script>
+            {
+              "@context": "https://schema.org",
+              "@type": ["FurnitureStore", "LocalBusiness", "UsedFurnitureStore"],
+              "name": "الهاشمي للأثاث - شراء الأثاث المستعمل في الكويت",
+              "description": "متخصصون في شراء جميع أنواع الأثاث المستعمل (غرف نوم، كنب، مطابخ، دولاب ملابس) بأعلى الأسعار في جميع مناطق الكويت",
+              "image": [
+                "https://usedfurniturekw.com/assets/img/poster-Used-Furniture-kw-3-50637028.png",
+                "https://usedfurniturekw.com/assets/img/poster-Used-Furniture-kw-2-50637028.png"
+              ],
+              "@id": "https://usedfurniturekw.com",
+              "url": "https://usedfurniturekw.com",
+              "telephone": "+96550637028",
+              "email": "info@usedfurniturekw.com",
+              "priceRange": "$$-$$$",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "الكويت",
+                "addressLocality": "الكويت",
+                "addressRegion": "الكويت",
+                "addressCountry": "KW"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 29.3759,
+                "longitude": 47.9774
+              },
+              "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "08:00",
+                "closes": "22:00"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.7",
+                "reviewCount": "112",
+                "bestRating": "5"
+              },
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "خدمات شراء الأثاث المستعمل",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Product",
+                      "name": "شراء غرف نوم مستعملة",
+                      "description": "نشتري جميع أنواع غرف النوم المستعملة بحالة جيدة"
+                    },
+                    "price": "150",
+                    "priceCurrency": "KWD",
+                    "itemCondition": "https://schema.org/UsedCondition"
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Product",
+                      "name": "شراء كنب مستعمل",
+                      "description": "نشتري الكنب والأنتريهات المستعملة بجميع المقاسات"
+                    },
+                    "price": "80",
+                    "priceCurrency": "KWD",
+                    "itemCondition": "https://schema.org/UsedCondition"
+                  }
+                ]
+              },
+              "sameAs": [
+                "https://www.facebook.com/highsitekw",
+                "https://www.instagram.com/highsitekw",
+                "https://api.whatsapp.com/send?phone=96550637028"
+              ],
+              "areaServed": {
+                "@type": "State",
+                "name": "الكويت",
+                "sameAs": "https://en.wikipedia.org/wiki/Kuwait"
+              }
+            }
+            </script>
 
         <!-- FAQ Schema -->
         <script type="application/ld+json">

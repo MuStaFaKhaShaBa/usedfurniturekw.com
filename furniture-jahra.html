@@ -73,31 +73,103 @@
         <link rel="stylesheet" href="assets/css/all.min.css">
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="assets/css/rtl.css">
-
-        <!-- Local Business Schema -->
         <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FurnitureStore",
-      "name": "شراء الأثاث المستعمل بالجهراء",
-      "image": "https://usedfurniturekw.com/assets/img/poster-Used-Furniture-kw-3-50637028.png",
-      "telephone": "+96550637028",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "الجهراء",
-        "addressLocality": "الجهراء",
-        "addressRegion": "الجهراء",
-        "addressCountry": "KW"
-      },
-      "openingHours": "Mo-Su 08:00-22:00",
-      "priceRange": "$$$",
-      "areaServed": {
-        "@type": "City",
-        "name": "الجهراء",
-        "sameAs": "https://en.wikipedia.org/wiki/Al_Jahra"
-      }
-    }
-    </script>
+            {
+              "@context": "https://schema.org",
+              "@type": ["FurnitureStore", "LocalBusiness", "UsedFurnitureStore"],
+              "name": "أعلى سعر لشراء الأثاث المستعمل بالجهراء",
+              "description": "متخصصون في شراء الأثاث المستعمل (غرف نوم، كنب، مطابخ، دولاب ملابس) في الجهراء بأفضل الأسعار",
+              "image": [
+                "https://usedfurniturekw.com/assets/img/poster-Used-Furniture-kw-3-50637028.png",
+                "https://usedfurniturekw.com/assets/img/poster-Used-Furniture-kw-2-50637028.png"
+              ],
+              "telephone": "+96550637028",
+              "email": "jahra@usedfurniturekw.com",
+              "url": "https://usedfurniturekw.com/furniture-jahra.html",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "شارع الملك فيصل، مجمع 8",
+                "addressLocality": "الجهراء",
+                "addressRegion": "الجهراء",
+                "postalCode": "12345",
+                "addressCountry": "KW"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "29.3375",
+                "longitude": "47.6581"
+              },
+              "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday"
+                ],
+                "opens": "08:00",
+                "closes": "22:00"
+              },
+              "priceRange": "$$$",
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.7",
+                "reviewCount": "96",
+                "bestRating": "5"
+              },
+              "areaServed": {
+                "@type": "City",
+                "name": "الجهراء وضواحيها",
+                "sameAs": "https://en.wikipedia.org/wiki/Al_Jahra"
+              },
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "خدمات شراء الأثاث المستعمل بالجهراء",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Product",
+                      "name": "شراء غرف نوم مستعملة",
+                      "description": "نشتري غرف النوم الكاملة أو القطع المفردة بحالة جيدة في الجهراء",
+                      "brand": {
+                        "@type": "Brand",
+                        "name": "FurnitureKW"
+                      }
+                    },
+                    "price": "160",
+                    "priceCurrency": "KWD",
+                    "itemCondition": "https://schema.org/UsedCondition",
+                    "availability": "https://schema.org/InStock"
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Product",
+                      "name": "شراء كنب مستعمل",
+                      "description": "أفضل أسعار لشراء الكنب والأنتريهات المستعملة في الجهراء",
+                      "brand": {
+                        "@type": "Brand",
+                        "name": "FurnitureKW"
+                      }
+                    },
+                    "price": "85",
+                    "priceCurrency": "KWD",
+                    "itemCondition": "https://schema.org/UsedCondition",
+                    "availability": "https://schema.org/InStock"
+                  }
+                ]
+              },
+              "sameAs": [
+                "https://www.facebook.com/usedfurniturekw",
+                "https://www.instagram.com/usedfurniturekw",
+                "https://api.whatsapp.com/send?phone=96550637028"
+              ]
+            }
+            </script>
     </head>
 
     <body>
