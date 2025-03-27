@@ -81,7 +81,6 @@
         <link rel="stylesheet" href="assets/css/all.min.css">
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="assets/css/rtl.css">
-
         <script type="application/ld+json">
             {
               "@context": "https://schema.org",
@@ -159,10 +158,14 @@
                   "reviewBody": "تعامل محترف وتقييم سريع للأجهزة قبل الشراء"
                 }
               ],
-              "hasOfferCatalog": {
-                "@type": "OfferCatalog",
-                "name": "خدمات شراء الأجهزة الكهربائية المستعملة بالجهراء",
-                "itemListElement": [
+              "offers": {
+                "@type": "AggregateOffer",
+                "url": "https://usedfurniturekw.com/appliances-jahra.html",
+                "priceCurrency": "KWD",
+                "itemCondition": "https://schema.org/UsedCondition",
+                "availability": "https://schema.org/InStock",
+                "offerCount": "3",
+                "offers": [
                   {
                     "@type": "Offer",
                     "itemOffered": {
@@ -172,12 +175,15 @@
                       "brand": {
                         "@type": "Brand",
                         "name": "FurnitureKW"
+                      },
+                      "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": "4.6",
+                        "reviewCount": "42"
                       }
                     },
                     "price": "50",
-                    "priceCurrency": "KWD",
-                    "availability": "https://schema.org/InStock",
-                    "itemCondition": "https://schema.org/UsedCondition"
+                    "priceCurrency": "KWD"
                   },
                   {
                     "@type": "Offer",
@@ -188,12 +194,24 @@
                       "brand": {
                         "@type": "Brand",
                         "name": "FurnitureKW"
+                      },
+                      "review": {
+                        "@type": "Review",
+                        "reviewRating": {
+                          "@type": "Rating",
+                          "ratingValue": "4",
+                          "bestRating": "5"
+                        },
+                        "author": {
+                          "@type": "Person",
+                          "name": "نورا محمد"
+                        },
+                        "datePublished": "2023-08-15",
+                        "reviewBody": "تم شراء الغسالة بسرعة وسهولة"
                       }
                     },
                     "price": "30",
-                    "priceCurrency": "KWD",
-                    "availability": "https://schema.org/InStock",
-                    "itemCondition": "https://schema.org/UsedCondition"
+                    "priceCurrency": "KWD"
                   },
                   {
                     "@type": "Offer",
@@ -204,12 +222,15 @@
                       "brand": {
                         "@type": "Brand",
                         "name": "FurnitureKW"
+                      },
+                      "offers": {
+                        "@type": "Offer",
+                        "price": "60",
+                        "priceCurrency": "KWD"
                       }
                     },
                     "price": "60",
-                    "priceCurrency": "KWD",
-                    "availability": "https://schema.org/InStock",
-                    "itemCondition": "https://schema.org/UsedCondition"
+                    "priceCurrency": "KWD"
                   }
                 ]
               },
@@ -220,7 +241,8 @@
               ],
               "areaServed": {
                 "@type": "City",
-                "name": "الجهراء والمناطق المجاورة"
+                "name": "الجهراء والمناطق المجاورة",
+                "sameAs": "https://en.wikipedia.org/wiki/Al_Jahra"
               }
             }
             </script>
